@@ -1,0 +1,84 @@
+/* General */
+
+	body{
+		font-family: 'Playfair Display', sans-serif;
+		margin: 0;
+                                        
+	}
+	.inner{
+		max-width: 1300px;
+		margin: auto;
+	}
+	.myButton{
+		color: #1E1E1E !important;
+		padding:14px;
+		background-color: #F9C06A;
+		filter: drop-shadow(0px 6px 12px rgba(249,192,106,.22));
+		border: 1px solid #1E1E1E;
+		border-radius: 24px;
+		font-size: 14px;
+	}
+
+/* Section 1 */
+	#heroSection{
+		background: url(assets/images/heroBackground.png);
+		background-size: cover;
+		background-position: center;
+		color: white;
+		padding: 20px 40px 80px;
+	}
+	#heroSection nav{
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		align-content: center;
+	}
+
+	#heroSection nav > div{
+		margin: auto 0;
+	}
+	#heroSection a{
+		color: white;
+		text-decoration: none;
+	}
+	#heroSection .navItems{
+		display: flex;
+		justify-content: center;
+		gap: 40px;
+		font-size: 14px;
+	}
+	#heroSection .logo h4{
+		font-family: 'Clicker Script', sans-serif;
+		font-weight: 400;
+		font-size: 35px;    
+		margin: 0;                                   
+	}
+	#heroSection .signUpButtons{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: 50px;
+		font-size: 14px;
+	}
+	#heroSection .section1_Row2{
+		margin-top: 100px;
+		width: 40%;
+	}
+	#heroSection .section1_Row2 h2{
+		font-size: 20px;
+		font-weight: 500;
+	}
+	#heroSection h1{
+		font-family: 'Clicker Script', sans-serif;
+		font-size: 220px;
+		font-weight: 400;
+		line-height: 200px;
+		margin-top: 30px;
+		margin-bottom: 20px;
+	}
+	#heroSection p{
+		font-size: 18px;
+		font-weight: 400;
+		margin-bottom: 20px;
+	}
+/* Section 2 */ 

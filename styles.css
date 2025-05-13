@@ -234,3 +234,57 @@
 			width: 250px;
 		}
 	}
+/*****************************/
+
+/* Section 3 */
+	#section3{
+		padding:0 0 100px;
+	}
+	#section3 *{
+		text-align: center;
+	}
+	#section3 .coffeeCard{
+		width: 280px;
+		height: auto;
+		background-color: #FFF9F1;
+		border: 1px #F9C06A solid;
+		position: relative;
+		margin-bottom: 20px;
+	}
+	#section3 .section3_Row1 p{
+		color: #707070;
+	}
+	#section3 img{
+		width: 100%;
+		height: auto;
+	}
+	#section3 .section3_Row2{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		gap: 15px;
+		flex-wrap: wrap;
+	}
+	#section3 .coffeeCardText *{
+		margin: 0 0 5px;
+	}
+	#section3 .coffeeCardText{
+		margin: 10px auto 35px;
+	}
+	#section3 .coffeeCard h5{
+		color: #603809;
+		font-size: 20px;
+	}
+	#section3 .coffeeCard p{
+		font-size: 14px;
+	}
+	#section3 .coffeeCard h6{
+		color: #603809;
+		font-size: 18px;
+	}
+	#section3 .myButton{
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		transform: translate(-50%,50%);
+	}

@@ -8,6 +8,7 @@
 	section{
 		position: relative;
 		overflow: hidden;
+		padding: 30px 20px;
 	}
 	.inner{
 		max-width: 1300px;
@@ -15,7 +16,7 @@
 	}
 	.myButton{
 		color: #1E1E1E !important;
-		padding:14px;
+		padding:10px 25px;
 		background-color: #F9C06A;
 		filter: drop-shadow(0px 6px 12px rgba(249,192,106,.22));
 		border: 1px solid #1E1E1E;
@@ -311,6 +312,14 @@
 	#section4 .section4_Row1 p{
 		color: #707070;
 	}
+	#section4 .section4_Row3 p{
+		color: #707070;
+		margin-bottom: 0px;
+	}
+	#section4 .section4_Row3 h3{
+		font-size: 28px;
+		margin: 10px auto 20px;
+	}
 	#section4 img{
 		width: 80px;
 		height: auto;
@@ -340,5 +349,86 @@
 		color: #603809;
 		font-size: 18px;
 	}
-	
+	@media(max-width: 768px){
+		#section4 .section4_Row3 h3{
+			font-size: 20px;
+		}
+		#section4 .section4_Row3 p{
+			font-size: 14px;
+		}
+	}
 /***************************/
+
+
+/* Section 5 */ 
+
+	#section5{
+		background: url(assets/images/Group36.png);
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+	}
+	#section5 h3, #section5 p{
+		color: white;
+	}
+	#section5 .section5_Row1{
+		display: flex;
+		flex-wrap: wrap-reverse;
+		padding: 60px 20px;
+	}
+	#section5 .section5_Row1_Col2{
+		display: flex;
+		align-items: center;
+	}
+	#section5 .section5_Row1_Col1{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 10px;
+	}
+	#section5 .section5_Row1 img{
+		width: 300px;
+		margin: auto;
+		text-align: center;
+	}
+	@media (min-width: 768px){
+		#section5 .section5_Row1 > div{
+			width: 50%;
+		}
+	}
+	@media (max-width:960px){
+		#section5 .section5_Row1 img{
+			width: 220px;
+		}
+		#section5 .section5_Row1{
+			padding-top: 60px;
+			padding-bottom: 60px;
+		}
+	}
+	@media (max-width: 768px){
+		#section5 .section5_Row1{
+			padding: 20px 10px;
+			gap: 20px;
+		}
+		#section5 .section5_Row1 > *{
+			width: 100%;
+			align-items: center;
+		}
+		#section5 .section5_Row1 *{
+			text-align: center;
+		}
+		#section5 .section5_Row1 img{
+			width: 250px;
+		}
+	}
+
+/*****************************/
+
+/* Section 6 */ 
+
+	#section6, #section6 *{
+		text-align: center;
+	}
+	#section6 p{
+		color: #707070;
+	}

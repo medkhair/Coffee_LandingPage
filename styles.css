@@ -436,10 +436,22 @@
 	#section5 h3, #section5 p{
 		color: white;
 	}
+	#section5 > .inner{
+		z-index: 2;
+		position: relative;
+	}
+	#section5 > img{
+		position: absolute;
+		z-index: 1;
+		height: 100%;
+		width: auto;
+		bottom: 0;
+		right: 0;
+	}
 	#section5 .section5_Row1{
 		display: flex;
 		flex-wrap: wrap-reverse;
-		padding: 60px 20px;
+		padding: 60px 20px 0px;
 	}
 	#section5 .section5_Row1_Col2{
 		display: flex;
